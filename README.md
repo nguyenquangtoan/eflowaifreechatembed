@@ -1,10 +1,8 @@
 <!-- markdownlint-disable MD030 -->
 
-# Flowise Embed
+# eflowai Embed
 
-Javascript library to display flowise chatbot on your website
-
-![Flowise](https://github.com/FlowiseAI/FlowiseChatEmbed/blob/main/images/ChatEmbed.gif?raw=true)
+Javascript library to display eflowai chatbot on your website
 
 Install:
 
@@ -30,7 +28,7 @@ yarn build
 
 ```html
 <script type="module">
-  import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+  import Chatbot from "https://cdn.jsdelivr.net/npm/eflowai-embed/dist/web.js";
   Chatbot.init({
     chatflowid: "<chatflowid>",
     apiHost: "http://localhost:3000",
@@ -48,7 +46,7 @@ yarn build
     apiHost: "http://localhost:3000",
   });
 </script>
-<flowise-fullchatbot></flowise-fullchatbot>
+<eflowai-fullchatbot></eflowai-fullchatbot>
 ```
 
 To enable full screen, add `margin: 0` to <code>body</code> style, and confirm you don't set height and width
@@ -64,9 +62,9 @@ To enable full screen, add `margin: 0` to <code>body</code> style, and confirm y
         chatWindow: {
           // height: 700, don't set height
           // width: 400, don't set width
-        }
-      }
-  });
+        },
+      },
+    });
   </script>
 </body>
 ```
@@ -77,7 +75,7 @@ You can also customize chatbot with different configuration
 
 ```html
 <script type="module">
-  import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+  import Chatbot from "https://cdn.jsdelivr.net/npm/eflowai-embed/dist/web.js";
   Chatbot.init({
     chatflowid: "91e9c803-5169-4db9-8207-3c0915d71c5f",
     apiHost: "http://localhost:3000",
@@ -129,4 +127,4 @@ You can also customize chatbot with different configuration
 
 ## License
 
-Source code in this repository is made available under the [MIT License](https://github.com/FlowiseAI/Flowise/blob/master/LICENSE.md).
+Source code in this repository is made available under the [MIT License](https://github.com/eflowaiAI/eflowai/blob/master/LICENSE.md).
